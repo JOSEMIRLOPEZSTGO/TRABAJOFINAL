@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "es2015", // O "es2016", "es2017", "es2018", "es2019", "es2020", "esnext"
+                        // "es2015" es suficiente para 'Set'
+    "module": "es6",    // O "commonjs", dependiendo de cómo quieras importar/exportar
+    "strict": true,     // Buena práctica para TypeScript
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./",     // Donde se generará main.js (en la misma carpeta en tu caso)
+    "lib": ["es2015", "dom"] // ¡Asegúrate de que "es2015" (o superior) y "dom" estén aquí!
+                             // "dom" es necesario para tipos como 'HTMLCanvasElement', 'window', 'document', etc.
+  },
+  "include": [
+    "main.ts" // Asegúrate de que tu archivo main.ts esté incluido
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

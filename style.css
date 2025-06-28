@@ -1,0 +1,35 @@
+
+    body {
+      margin: 0;
+      overflow: hidden;
+      background: black;
+      font-family: Arial, sans-serif;
+    }
+    canvas {
+      display: block;
+    }
+    #controls {
+      position: absolute;
+      top: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 1;
+      display: flex;
+      gap: 10px;
+    }
+    #textInput {
+      padding: 5px 10px;
+      font-size: 16px;
+      border-radius: 5px;
+      border: none;
+    }
+    #submitBtn {
+      padding: 5px 15px;
+      font-size: 16px;
+      border-radius: 5px;
+      background: #ff0080;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+ 
